@@ -16,7 +16,14 @@
         <div>
             <h2>Captions</h2>
             <p>Captions are generally given in the same language as the original content. It includes relevant sound effects or background noises because the intended audience is those who cannot hear the audio for some reasons.</p>
-            <!-- TODO: Put the dog video here. Set the width to 400 pixels and include controls -->
+           <video controls>
+            <source src="assets/videos/dog-video.mp4" type="video/mp4">
+             <track 
+                    src="VTT_FILE_HERE"
+                    kind="captions"
+                    srclang="English"
+                    label="English Captions" />
+           </video>
             <!-- Include a track tag with the src attribute set to "dog-video.vtt" -->
         </div>
         <div>
